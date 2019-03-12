@@ -6,13 +6,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">  
   
-    	
-   	<bean class="SampleBean" id="sb1"/>
+   
 	
 	<bean class="MyBean" id="mb1">
-  		<property name="sb">
-  			<ref parent="sb1"/>
-  		</property>
 
   	</bean>
 
