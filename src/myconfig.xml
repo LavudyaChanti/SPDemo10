@@ -7,11 +7,8 @@
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">  
   
    
-	
-	<bean class="MyBean" id="mb1">
-
-  	</bean>
-
-  	
+	<bean class="SampleBean" id="id1"></bean>
+	<bean class="MyBean" id="id2">	
+	</bean>
   	
 </beans>  
