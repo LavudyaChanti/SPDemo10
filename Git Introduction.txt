@@ -1,0 +1,82 @@
+GIT:
+==
+
+Git is an indispensable part of modern software development. 
+It is a version control system which can be thought of as an extremely powerful version of track changes 
+in Microsoft Word or Google Docs. 
+
+
+With git, 
+you can collaborate with other developers, 
+track all your work via commits,
+revert to any previous version of your code even if you accidentally delete something important.
+
+Installation & setup:
+=================
+1.Install Git On Windows.
+2.Once installed, we need to do a one-time system setup to configure it 
+by declaring the name and email address you want associated with all your Git commits.
+
+3.Within the command line console type the following two lines. 
+Make sure to update them your name and email address.
+
+4.Open cmd prompt
+
+c:\> 	git 	config --global user.name "Your Name"
+c:\>  	git 	config --global user.email "yourname@email.com"
+
+5.You can always change these configs later if you desire by retyping the same commands 
+with a new name or email address.
+
+
+
+
+
+Configuring ur project into git:
+==========================
+Step1:Open ur project folder
+Step2:Open cmd prompt
+Step3:Prepare ur project code in Eclipse & test it then goto cmd prompt
+Step4:one-time system setup to configure git(creating account)
+	git 	config --global user.name "Your Name"	
+	git 	config --global user.email "yourname@email.com"
+Step5:
+The first step is to initialize (or add) git to our repository.
+	git 	init
+Step6:
+If you then type git status you’ll see a list of changes since the last git commit. 
+Since this is our first commit, this list is all of our changes so far.
+	git status
+Step7:
+We next want to add all changes by using the command add -A and then commit the 
+changes along with a message describing what has changed.
+	git add -A
+	git commit -m 'initial commit'
+Step8:
+	SignIn into ur github account from Browser
+Step9:	
+	Click new in Repositories
+Step10:
+	name=UrAppName
+	Click on create Repository
+
+Step11:Goto "push an existing repository from the command line" and copy the                               two commands & paste  into ur command prompt
+
+Command1:git remote add origin https://github.com/LavudyaChanti/UrAppName.git
+Command2:git push -u origin master
+
+Step12:Goto homepage in github site & check ur project
+Step13:Next time if u modified code then repeat Step5,6,7 & Step11 command2
+	
+
+
+
+
+
+
+
+
+
+
+
+
